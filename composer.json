@@ -1,0 +1,43 @@
+{
+    "name": "dovutuan/laralog",
+    "description": "Logging query laravel",
+    "keywords": [
+        "laravel",
+        "logging query"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Dovutuan\\Laralog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dovutuan",
+            "email": "dotuan.0598@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/dovutuan/laralog",
+    "support": {
+        "email": "tuando.0598@gmail.com",
+        "issues":"https://github.com/dovutuan/laralog/issues",
+        "wiki":"https://github.com/dovutuan/laralog/wiki",
+        "source":"https://github.com/dovutuan/laralog",
+        "docs": "https://github.com/dovutuan/laralog"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.38",
+        "illuminate/filesystem": "^10.38"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dovutuan\\Laralog\\ServiceProvider"
+            ]
+        }
+    }
+}
